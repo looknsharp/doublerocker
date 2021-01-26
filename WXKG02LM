@@ -43,8 +43,7 @@ trigger:
 
 action:
   - variables:
-      attribute_id: "{{ trigger.event.data.endpoint_id }}"
-      attribute_name: endpoint_id
+      data: "{{ trigger.event.data.endpoint_id }}"
 
   - choose:
       - conditions:
