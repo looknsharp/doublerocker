@@ -4,9 +4,9 @@ blueprint:
   domain: automation
   input:
     WXKG02LM:
-      ##name: Select the Aqara Wireless Remote Switch (Double Rocker)
-     ## description: Aqara Wireless Remote Switch (Double Rocker)
-      ##selector:
+      name: Select the Aqara Wireless Remote Switch (Double Rocker)
+      description: Aqara Wireless Remote Switch (Double Rocker)
+      selector:
         device: 7177cd56c25d9bf4e80175c83fcb1560
       ##    integration: zha
       ##    manufacturer: LUMI
