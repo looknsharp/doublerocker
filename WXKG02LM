@@ -6,7 +6,7 @@ blueprint:
     aqara_mini_switch:
       name: Select the Aqara Wireless Remote Switch (Double Rocker)
       description: Aqara Wireless Remote Switch (Double Rocker)
-      selector:
+#      selector:
         device:
           integration: zha
           manufacturer: LUMI
